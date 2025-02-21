@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fe673bc204.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <nav>
+            <img src="LOGO.png" class="logo">
+            <div class="navbar" id="navbar">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-circle-xmark menu-close" id="menu-close"></i>
+            </div>
+            <i class="fa-solid fa-bars menu-toggle" id="menu-toggle"></i>
+        </nav>
+        
+            </div>
+            
+           
+        </nav>
+        <div class="header-text">
+            <p>UI/UX DESIGNER</p>
+            <h1>Hi, I'm <span>Uttam Singh</span><br> from India</h1>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="USER.jpg" alt="User Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Uttam Singh, currently pursuing a B.Tech from Noida International University. Passionate about technology and innovation, I strive to enhance my skills in engineering and problem-solving. My goal is to contribute to the tech industry with creativity and dedication. 🚀</p>
+                    <div class="tab-title">
+                        <div class="tab-container">
+                            <div class="tab-links active-links" onclick="opentab('skills')">Skills</div>
+                            <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                            <div class="tab-links" onclick="opentab('education')">Education</div>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                                <li><span>Web Development</span><br>Creating responsive websites</li>
+                                <li><span>Mobile Apps</span><br>Building Android/iOS applications</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2018</span><br>Worked as a team member in sales</li>
+                                <li><span>2019</span><br>Built a client-server database with a team</li>
+                                <li><span>2020</span><br>Worked as a sales executive in Delhi under supervision</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2018</span> Completed senior secondary from D.A.V Centenary Public School</li>
+                                <li><span>2022</span> Completed higher secondary from D.A.V Centenary Public School</li>
+                                <li><span>2025</span> Pursuing B.Tech from Noida International University</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I can design fully functional websites that offer interactive user experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I create intuitive and visually appealing user interfaces for web and mobile apps.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>I develop Android and iOS applications tailored to user needs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="wrok-list">
+                <div class="work">
+                    <img src="personal-portfolio-img\images\work-1.png">
+                    <div class="layer">
+                        <h3> social meadia app</h3>
+                        <p> the app contact the talented people around the globe</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="personal-portfolio-img\images\work-2.png">
+                    <div class="layer">
+                        <h3> music app</h3>
+                        <p> the app contact the talented people around the globe</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="personal-portfolio-img\images\work-3.png">
+                    <div class="layer">
+                        <h3> online shopping app</h3>
+                        <p> the app contact the talented people around the globe</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">SEE MORE</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="contact-left">
+                <h1 class="sub-title"> contact me</h1>
+                <p<i class="fa-solid fa-paper-plane"></i>uttamsingh8607101@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>8282828282</p>
+                <div class="social-icon">
+                   <a href="https://www.facebook.com/"></a> <i class="fa-brands fa-github"></i>
+                   <a href="https://www.facebook.com/"></a> <i class="fa-brands fa-twitter"></i>
+                    <a href="https://www.facebook.com/"></a> <i class="fa-brands fa-instagram"></i>
+                        <a href="https://www.facebook.com/"></a><i class="fa-brands fa-linkedin"></i>
+                            <a href="https://www.facebook.com/"></a> <i class="fa-brands fa-facebook"></i>
+                </div>
+                <a href="personal-portfolio-img\images\my-cv.pdf" download class="btn btn2">download CV</a>
+                
+            </div>
+
+            <div class="contact-right"></div>
+                <form name="submit-to-google-sheet"> 
+                    <input type="text"name="namme" placeholder="your name" required>
+                    <input type="email" name="email"placeholder="your email" required>
+                    <textarea name="message"  rows="6" placeholder="message" required></textarea>
+                    <button type="submit"class="btn btn2">submit</button>
+                </form>
+                <span id="msg">hello</span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>cpoyright@ uttam<i class="fa-solid fa-heart"></i> made by utam singh</p>
+        </div>
+    </div>
+    
+    
+
+    <script>
+        function opentab(tabname) {
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.getElementById("menu-toggle");
+    const menuClose = document.getElementById("menu-close");
+    const navbar = document.getElementById("navbar");
+
+    menuToggle.addEventListener("click", function () {
+        navbar.classList.add("active");
+        menuToggle.style.display = "none";  // Hide menu icon
+        menuClose.style.display = "block";  // Show close icon
+    });
+
+    menuClose.addEventListener("click", function () {
+        navbar.classList.remove("active");
+        menuClose.style.display = "none";   // Hide close icon
+        menuToggle.style.display = "block"; // Show menu icon
+    });
+});
+
+
+    </script>
+    <form name="submit-to-google-sheet">
+        <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzeGbOOTdEK3700cQ1NYqBEb7u_-3XsKKKSOpLR7GwdFKuZ7qr-OFBzjrRd1kNhIq_g/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+    
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully!";
+                    msg.style.color = "green";
+                    
+                    setTimeout(function () {
+                        msg.innerHTML = ""; // Clear message after 3 seconds
+                    }, 3000);
+    
+                    form.reset(); // Clear form fields after submission
+                })
+                .catch(error => {
+                    msg.innerHTML = "Error sending message!";
+                    msg.style.color = "red";
+                    console.error('Error!', error.message);
+                });
+        });
+    </script>
+    
+</body>
+</html>
